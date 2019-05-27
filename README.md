@@ -25,3 +25,23 @@ These documents are expected to apply to all repositories (as appropriate) insid
 1. Archived repositories are exempted from these documents.
 
 1. The original `simplepie/simplepie` repository (aka, "SimplePie Classic", "SimplePie OG") is exempted from these documents.
+
+## SimplePie Enhancement Proposal RFCs
+
+### Approved
+
+| # | Title |
+| - | ----- |
+| [SPEP-1](https://github.com/simplepie/rfc/tree/master/SPEP-1) | PHP Version Support Guidelines |
+
+### Pending/In-Progress
+
+TBD
+
+### Inactive
+
+TBD
+
+### Obsolete
+
+TBD
