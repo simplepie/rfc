@@ -25,8 +25,8 @@
     }
 
 
-    RemoteMasterUpstream -down[#blue]-> RemoteMasterFork: Fork (first)\nPull (subsequent)
     RemoteMasterUpstream -down[#gray]-> LocalMasterFork: Fetch latest\nfrom upstream
+    RemoteMasterUpstream -down[#blue]-> RemoteMasterFork: Fork (first)\nPull (subsequent)
     RemoteMasterFork -down[#blue]-> LocalMasterFork: Clone (first)\nPull (subsequent)
     LocalMasterFork -right[#black]-> LocalBranchFork: Branch (first)\nMerge (subsequent)
     LocalBranchFork -up[#red]-> RemoteBranchFork: Push
