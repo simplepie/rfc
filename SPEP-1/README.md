@@ -37,7 +37,7 @@ Due to this rationale, the high-level PHP support guidelines for SimplePie (and 
 
 As an example of how the schedule is expected to work, the two most recent _major.minor_ versions of PHP receive full parity support for new features. The third most recent will see feature-parity on a _best effort_ basis.
 
-### In November/December
+### Adopting/Ending Releases
 
 In the following table, the _Year_ refers to November/December of that year. Based on [PHP Supported Versions](https://www.php.net/supported-versions.php):
 
@@ -48,3 +48,15 @@ In the following table, the _Year_ refers to November/December of that year. Bas
 | 2020 | 8.0, 7.4 | 7.3 | 7.2 |
 | 2021 | 8.1, 8.0 | 7.4 | 7.3, 7.2 |
 | 2022 | 8.2, 8.1 | 8.0 | 7.4, 7.3, 7.2 |
+
+### Latest Bugfix Releases
+
+Even when a _major.minor_ version of PHP is listed as supported, only the latest bugfix/patch release of that branch is _actually_ supported.
+
+> **NOTE:** This (intentionally) pre-supposes that developers have control over the software versions that they are running. "Shared hosting plans" are explicitly unsupported by default because we support particular combinations of software versions.
+
+To use a fictional version, let's say that v6.0 is listed as being supported. A user is running v6.0.0, while v6.0.1 is available. There is a bugfix that exists in v6.0.1 that does not exist in v6.0.0. Instead of applying a patch to fix the issue in v6.0.0, you may be asked to upgrade your version to v6.0.1 where the bug is already fixed.
+
+### Common-Sense Support
+
+No, we're not going to intentionally break our users. We want to develop and deliver quality software. At the same time, we do not have the resources to maintain support for an unwieldly matrix of software versions, stacks, extensions, and platforms. This document is intended to both protect the development team, as well as set expectations for our users about how we think about PHP support moving forward.
