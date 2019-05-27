@@ -60,3 +60,7 @@ To use a fictional version, let's say that v6.0 is listed as being supported. A 
 ### Common-Sense Support
 
 No, we're not going to intentionally break our users. We want to develop and deliver quality software. At the same time, we do not have the resources to maintain support for an unwieldly matrix of software versions, stacks, extensions, and platforms. This document is intended to both protect the development team, as well as set expectations for our users about how we think about PHP support moving forward.
+
+## INFORMATIVE
+
+* [PHP version features](PHP_FEATURES.md)
