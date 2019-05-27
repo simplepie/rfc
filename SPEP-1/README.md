@@ -1,10 +1,15 @@
-# SPEP-1: PHP Version Support Guidelines
+---
 
-| State | Value |
-| ------------ | ------ |
-| Obsoleted by | _None_ |
-| Updated by | _None_ |
-| Obsoletes | _None_ |
+"Status": APPROVED
+"Date Approved": 2019-05-27
+"Obsoleted by": None
+"Updated by": None
+"Obsoletes": None
+"Author(s)": Ryan Parman (@skyzyx)
+
+---
+
+# SPEP-1: PHP Version Support Guidelines
 
 ## Copyright Notice
 
