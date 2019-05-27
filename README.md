@@ -59,6 +59,7 @@ These documents are expected to apply to all repositories (as appropriate) insid
 | # | Title |
 | - | ----- |
 | [SPEP-1](https://github.com/simplepie/rfc/tree/master/SPEP-1) | PHP Version Support Guidelines |
+| [SPEP-2](https://github.com/simplepie/rfc/tree/master/SPEP-2) | One-Way Git Merges |
 
 ### Pending/In-Progress
 
