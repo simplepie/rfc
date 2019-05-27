@@ -29,3 +29,17 @@ Due to this rationale, the high-level PHP support guidelines for SimplePie (and 
     * …whereas "active support" versions are expected to receive parity support
     * …and whereas "security support" versions are expected to not receive backwards-incompatible changes, but may not gain access to new features that require newer language features
 * …not older than PHP 7.2
+
+As an example of how the schedule is expected to work, the two most recent _major.minor_ versions of PHP receive full parity support for new features. The third most recent will see feature-parity on a _best effort_ basis.
+
+### In November/December
+
+In the following table, the _Year_ refers to November/December of that year. Based on [PHP Supported Versions](https://www.php.net/supported-versions.php):
+
+| Year | Active Support | Security Support | EOL |
+| ---- | -------------- | ---------------- | --- |
+| 2018 | 7.3, 7.2 | _N/A_ | _N/A_ |
+| 2019 | 7.4, 7.3 | 7.2 | _N/A_ |
+| 2020 | 8.0, 7.4 | 7.3 | 7.2 |
+| 2021 | 8.1, 8.0 | 7.4 | 7.3, 7.2 |
+| 2022 | 8.2, 8.1 | 8.0 | 7.4, 7.3, 7.2 |
