@@ -8,37 +8,24 @@
 
 ## Copyright Notice
 
-
+This document is made available under the terms of the [`LICENSE`](https://github.com/simplepie/rfc/blob/master/LICENSE) of this repository. The author wishes this document to be copyright-free and part of the public domain.
 
 ## Abstract
 
-   The Hypertext Transfer Protocol (HTTP) is an application-level
-   protocol for distributed, collaborative, hypermedia information
-   systems. It is a generic, stateless, protocol which can be used for
-   many tasks beyond its use for hypertext, such as name servers and
-   distributed object management systems, through extension of its
-   request methods, error codes and headers [47]. A feature of HTTP is
-   the typing and negotiation of data representation, allowing systems
-   to be built independently of the data being transferred.
-
-   HTTP has been in use by the World-Wide Web global information
-   initiative since 1990. This specification defines the protocol
-   referred to as "HTTP/1.1", and is an update to RFC 2068 [33].
-
-
-
-
-
-
-
-
-
-We support:
-
-* The latest bugfix releases
-* …of [all non-EOL versions of PHP](https://www.php.net/supported-versions.php)
-* …not older than PHP 7.2
+SimplePie (and its related first- and second-party software) is provided by its authors under the terms of a liberal software license. It is also the desire of the authors to remain "good citizens" of the internet and PHP communities, which includes discouraging the continued use of unmaintained, end-of-life (EOL) software platforms.
 
 ## Annual Cadence
 
-Since 2011, [PHP releases are on an annual cadence](https://wiki.php.net/rfc/releaseprocess) where new major versions of PHP are released every November/December. This means that every November we will be dropping support for the oldest-supported version of PHP.
+Since 2011, [PHP releases are on an annual cadence](https://wiki.php.net/rfc/releaseprocess) where new major versions of PHP are released — and old versions achieve EOL status — every November/December. This means that every November we will be dropping support for the oldest-supported version of PHP and adopting support for the new version of PHP.
+
+Any future changes to the standard PHP release schedule will be adopted by the SimplePie Core Team. This may include extended support for a particular version of PHP (like we saw with PHP 5.6).
+
+## Code Support Schedule
+
+Due to this rationale, the high-level PHP support guidelines for SimplePie (and its related first- and second-party software) are as follows:
+
+* The [latest bugfix releases](https://www.php.net/downloads.php)
+* …of [all non-EOL versions of PHP](https://www.php.net/supported-versions.php)
+    * …whereas "active support" versions are expected to receive parity support
+    * …and whereas "security support" versions are expected to not receive backwards-incompatible changes, but may not gain access to new features that require newer language features
+* …not older than PHP 7.2
